@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashraful Islam - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Social Media Wrapper -->
+    <div class="social-wrapper">
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-wordpress"></i></a>
+    </div>
+    <nav class="navbar">
+      <div class="container navbar-content">
+        <div class="logo">Ashraful</div>
+        <!-- Hamburger Menu -->
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="section">
+      <div class="container hero-content">
+        <h1>Hi I'm Ashraful Islam</h1>
+        <p>
+          Crafting custom WordPress solutions, building robust themes, plugins,
+          and scalable web applications with expert-level development.
+        </p>
+        <div class="cta-buttons">
+          <a href="#works" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-content">
+        <div class="about-image">
+          <img src="assets/image/ashraful.jpg" alt="Profile Picture" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am a WordPress developer specializing in creating custom themes,
+            plugins, and fully customized websites. With expertise in both
+            front-end and back-end development, I build high-quality,
+            functional, and user-friendly WordPress solutions tailored to my
+            clients' needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 50px; font-size: 2.5rem">
+           Projects I have involved with
+        </h2>
+
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="themes">Themes</button>
+          <button class="filter-btn" data-filter="plugins">Plugins</button>
+          <button class="filter-btn" data-filter="custom">
+            Custom Solutions
+          </button>
+          <button class="filter-btn" data-filter="charity">
+            Charity Projects
+          </button>
+        </div>
+
+        <div class="works-grid">
+          <div class="project" data-category="themes">
+            <h3>E-commerce Retail Theme</h3>
+            <p>
+              Fully responsive WooCommerce theme with advanced product
+              customization and mobile-first design.
+            </p>
+          </div>
+          <div class="project" data-category="plugins">
+            <h3>Advanced Membership Plugin</h3>
+            <p>
+              Comprehensive user management plugin with content restriction,
+              payment integration, and role-based access control.
+            </p>
+          </div>
+          <div class="project" data-category="custom">
+            <h3>Headless WordPress Platform</h3>
+            <p>
+              Custom decoupled WordPress backend with React frontend, utilizing
+              WordPress as a powerful Headless CMS.
+            </p>
+          </div>
+          <div class="project" data-category="themes">
+            <h3>Minimal Portfolio Theme</h3>
+            <p>
+              Clean, lightweight WordPress theme optimized for personal and
+              professional portfolios.
+            </p>
+          </div>
+          <div class="project" data-category="plugins">
+            <h3>SEO Optimization Plugin</h3>
+            <p>
+              Advanced SEO management tool with real-time content analysis and
+              optimization suggestions.
+            </p>
+          </div>
+          <div class="project" data-category="charity">
+            <h3>Non-Profit Fundraising Platform</h3>
+            <p>
+              Custom WordPress solution for managing donations, events, and
+              supporter engagement for charitable organizations.
+            </p>
+          </div>
+          <div class="project" data-category="custom">
+            <h3>Enterprise Learning Management System</h3>
+            <p>
+              Tailored WordPress-based LMS with custom user tracking, course
+              management, and certification features.
+            </p>
+          </div>
+          <div class="project" data-category="charity">
+            <h3>Community Impact Tracker</h3>
+            <p>
+              WordPress plugin to help non-profits track and showcase their
+              community impact and donation utilization.
+            </p>
+          </div>
+          <div class="project" data-category="themes">
+            <h3>Blog Magazine Theme</h3>
+            <p>
+              Feature-rich WordPress theme for content creators with multiple
+              layout options and monetization tools.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <form class="contact-form">
+          <h2 style="text-align: center; margin-bottom: 30px">Contact Me</h2>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
